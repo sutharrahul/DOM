@@ -4,8 +4,8 @@ document.querySelector(".clash-card__unit-stats--giant").style.backgroundColor =
 document.querySelector(".clash-card__unit-stats--goblin").style.backgroundColor = "#82bb30"
 document.querySelector(".clash-card__unit-stats--wizard").style.backgroundColor = "#4facff"
 
-const clr =  document.querySelectorAll(".clash-card__unit-stats")    ;
-for(let i=0 ;i<clr; i++){
-    let newclr = clr[i];
-    newclr.style.color = "#fef2d8";
-}
+const tex = document.querySelectorAll(".wrapper .clash-card .clash-card__unit-stats .one-third");
+for(let i=0 ;i<tex.length; i++){
+    const newcolor = tex[i];
+    newcolor.style.color = "#f0efea"
+ }
