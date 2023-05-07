@@ -71,5 +71,22 @@
         </div>
       </section>
     </div>
+    <script>
+      if(localStorage.getItem('flag')!='true'){
+        
+        const arr = document.querySelectorAll(".main__languages a");
+        for(let i=0; i<arr.length; i++){
+          console.log(arr);
+          if(arr[i].innerHTML.indexOf("2.0")!=-1){
+            arr[i].remove();
+          }
+        }
+        
+        localStorage.setItem('flag','true');
+      }
+      
+      document.querySelector(".main__form-input").disabled = false;
+      document.querySelector(".main__form-btn").disabled = false;
+    </script>
   </body>
 </html>
