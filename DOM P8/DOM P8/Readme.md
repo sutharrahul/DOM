@@ -3,7 +3,7 @@
 ![](./ass8.1-after.png)
 # Task 2
 **Before**
-![](./ass8.2-before.png)<br>
+![Alter text](./ass8.2-before.png)<br>
 **After**
 ```Javascript
       document.body.style.backgroundImage = "none";
