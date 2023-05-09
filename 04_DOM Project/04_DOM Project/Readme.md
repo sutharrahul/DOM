@@ -1,5 +1,5 @@
 # Task 
-![](./Output/DOM%20P1%20SS.png)
+![Alt text](./Output/DOM%20P1%20SS.png)
 ```Javascript
 // Change stats background color
 document.querySelector(".clash-card__unit-stats--barbarian").style.backgroundColor = "#ec9b3b";
