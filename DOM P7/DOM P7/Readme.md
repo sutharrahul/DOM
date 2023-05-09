@@ -1,6 +1,6 @@
 # Task 1
 **Remove the languages that have 2.0 in their name(Every alternative language)**
-![](./ass7.1-after.png)
+![Alt text](./ass7.1-after.png)
 ```Javascript
 const arr = document.querySelectorAll(".main__languages a");
         for(let i=0; i<arr.length; i++){
@@ -12,7 +12,7 @@ const arr = document.querySelectorAll(".main__languages a");
 ```
 # Task 2
 **Use JavaScript to write something in the input box and submit the form. This should refresh the page and the languages in the left card should come back.**
-![](./ass7.2-after.png)
+![Alt text](./ass7.2-after.png)
 ```Javascript
 document.querySelector(".main__form-input").disabled = false;
       document.querySelector(".main__form-btn").disabled = false;

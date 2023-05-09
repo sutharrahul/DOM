@@ -1,5 +1,5 @@
 # Add Element and text using DOM
-![](./Output/DOM%20P2%20SS.png)
+![Alt text](./Output/DOM%20P2%20SS.png)
 **Add Pro Subscriptio Button**
 ```Javascript
 const warapper = document.getElementsByClassName('btn')[0].parentElement;
