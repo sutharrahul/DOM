@@ -26,7 +26,7 @@
       integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
       crossorigin="anonymous"
     ></script>
-  </head>
+  </head> 
   <body>
     <main class="container-fluid">
       <nav class="navbar navbar-expand-lg">
@@ -136,5 +136,18 @@
         </div>
       </section>
     </main>
+    <script>
+      document.body.style.backgroundImage = "none";
+      
+      function toggler(){
+        const toggle = document.querySelector(".collapse");
+        if (toggle.style.display === "none") {
+            toggle.style.display = "flex";
+        } else {
+          toggle.style.display = "none";
+        }
+      }
+      document.querySelector(".navbar-toggler").addEventListener("click",toggler);
+    </script>
   </body>
 </html>
